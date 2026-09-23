@@ -1,0 +1,348 @@
+{
+    "common": {
+        "errorDefault": "Something went wrong",
+        "tryAgain": "Try Again",
+        "noData": "No data available",
+        "copied": "Copied to clipboard",
+        "imageUnavailable": "Image unavailable",
+        "back": "Back"
+    },
+    "orderStatusBadge": {
+        "inProgress": "In progress",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled",
+        "refunded": "Refunded"
+    },
+    "carousel": {
+        "imageError": "error",
+        "imageAlt": "Promotional banner"
+    },
+    "products": {
+        "viewAll": "View All",
+        "bestSellers": "Best Sellers",
+        "trendingProducts": "Trending Store Favorites",
+        "unexpectedError": "Unexpected error",
+        "tryAgain": "Try Again",
+        "noProducts": "No products",
+        "itemsLeft": "{{count}} left",
+        "loadCategoriesError": "Failed to load categories"
+    },
+    "firstOrderSection": {
+        "errorLoading": "Error loading best selling products",
+        "tryAgain": "Try Again",
+        "noProducts": "No products available",
+        "discountOffer": "Get 10% OFF On Your First Order",
+        "orderTitle": "Order Now Your Grocery!",
+        "items": "Items",
+        "minutes": "Minutes",
+        "upToOffers": "Up to offers",
+        "orderNow": "Order Now"
+    },
+    "manageAddress": {
+        "deleteConfirm": "Are you sure you want to delete this address?",
+        "edit": "Edit",
+        "delete": "Delete",
+        "failedToLoad": "Failed to load addresses",
+        "tryAgain": "Try Again",
+        "noAddressesTitle": "No addresses added yet",
+        "noAddressesDescription": "Add your first address to start shopping!",
+        "addNewAddress": "Add New Address",
+        "addAddress": "Add Address",
+        "streetAddress": "Street Address",
+        "city": "City",
+        "apartment": "Apartment",
+        "zipCode": "Zip Code",
+        "update": "Update",
+        "save": "Save",
+        "loadingMap": "Loading map...",
+        "mode": {
+            "choose": "Choose Address",
+            "add": "Add New Address",
+            "edit": "Edit Address"
+        },
+        "signInPrompt": "Please sign in to manage your addresses.",
+        "signIn": "Sign in",
+        "loading": "Loading",
+        "selectAddress": "Select your address"
+    },
+    "header": {
+        "cart": "Cart",
+        "searchBy": "Search by",
+        "login": "Login",
+        "logout": "Logout",
+        "settings": "Settings"
+    },
+    "settings": {
+        "menu": {
+            "accountDetails": "Account details",
+            "orders": "Orders",
+            "security": "Security",
+            "address": "Address",
+            "notifications": "Notifications"
+        },
+        "pages": {
+            "placeholder": "Settings content will be added in the next step.",
+            "accountDetails": {
+                "title": "Account details",
+                "emailLabel": "Email",
+                "phoneLabel": "Phone number",
+                "passwordLabel": "Password",
+                "changePassword": "Change password",
+                "addEmail": "Add email",
+                "changeEmail": "Change email",
+                "addPhone": "Add phone number",
+                "changePhone": "Change phone number",
+                "removePhone": "Remove phone number",
+                "notAdded": "Not added",
+                "notAvailable": "Not available",
+                "newEmail": "New email",
+                "newPhone": "New phone number",
+                "sendCode": "Send code",
+                "resendCode": "Resend code",
+                "verifyCode": "Verify code",
+                "confirm": "Confirm",
+                "cancel": "Cancel",
+                "useAlternative": "Use {{contact}} instead",
+                "channelEmail": "email",
+                "channelPhone": "phone number",
+                "flow": {
+                    "emailAddTitle": "Add email",
+                    "emailChangeTitle": "Change email",
+                    "phoneAddTitle": "Add phone number",
+                    "phoneChangeTitle": "Change phone number",
+                    "phoneRemoveTitle": "Remove phone number",
+                    "verifyCurrentDescription": "Enter the code sent to {{target}}.",
+                    "enterNewEmail": "Enter a new email and send a verification code.",
+                    "enterNewPhone": "Enter a new phone number and send a verification code.",
+                    "verifyNewDescription": "Enter the code sent to {{target}}."
+                },
+                "messages": {
+                    "emailAdded": "Email added successfully.",
+                    "emailChanged": "Email changed successfully.",
+                    "phoneAdded": "Phone number added successfully.",
+                    "phoneChanged": "Phone number changed successfully.",
+                    "phoneRemoved": "Phone number removed successfully."
+                },
+                "errors": {
+                    "codeRequired": "Enter the 4-digit code.",
+                    "newValueRequired": "Enter a value.",
+                    "flowTokenMissing": "Verification session expired. Start again."
+                }
+            },
+            "orders": {
+                "title": "My orders",
+                "filters": {
+                    "all": "All",
+                    "inProgress": "In Progress",
+                    "delivered": "Delivered",
+                    "cancelled": "Cancelled"
+                },
+                "orderLabel": "Order",
+                "itemsLabel": "Items",
+                "itemsCount": "{{count}}x",
+                "viewOrderDetails": "View Order Details",
+                "emptyTitle": "No orders yet",
+                "emptyDescription": "Your recent orders will appear here once you place one.",
+                "error": "Failed to load your orders.",
+                "status": {
+                    "completed": "Completed",
+                    "cancelled": "Cancelled",
+                    "inProgress": "In Progress"
+                }
+            },
+            "security": {
+                "title": "Security",
+                "twoFactorTitle": "Two-factor authentication",
+                "twoFactorEnabled": "Two-factor authentication is enabled.",
+                "twoFactorDisabled": "Two-factor authentication is disabled.",
+                "twoFactorStart": "Set up 2FA",
+                "twoFactorScanHint": "Scan this QR code in your authenticator app.",
+                "twoFactorQrAlt": "Two-factor QR code",
+                "twoFactorBackupHint": "Save your backup codes in a safe place:",
+                "twoFactorCodeLabel": "Verification code",
+                "twoFactorCodePlaceholder": "Enter 6-digit code",
+                "twoFactorEnable": "Enable 2FA",
+                "unlinkGoogle": "Unlink Google account",
+                "unlinkGoogleSuccess": "Google account has been unlinked.",
+                "noActiveSessions": "No active sessions.",
+                "revokeOther": "Revoke other sessions",
+                "revokeAll": "Revoke all sessions",
+                "refreshing": "Refreshing...",
+                "currentSession": "Current session",
+                "thisDevice": "This device",
+                "session": "Session",
+                "manageSessions": "Manage sessions",
+                "browserLabel": "Browser",
+                "osLabel": "Operating system",
+                "deviceLabel": "Device type",
+                "ipLabel": "IP address",
+                "unknownDevice": "Unknown device",
+                "unknownIp": "Unknown IP",
+                "unknown": "Unknown",
+                "deviceDesktop": "Desktop",
+                "deviceMobile": "Mobile",
+                "deviceTablet": "Tablet",
+                "lastActivity": "Last activity",
+                "revoke": "Revoke"
+            },
+            "address": {
+                "title": "Address"
+            },
+            "notifications": {
+                "title": "Notifications",
+                "emailLabel": "Email notifications",
+                "emailDescription": "Receive order updates and store notifications by email.",
+                "updated": "Email notification settings updated."
+            }
+        }
+    },
+    "search": {
+        "page": {
+            "title": "Search Results",
+            "emptyQuery": "Enter at least 2 characters to search",
+            "titleWithQuery": "Search Results «{{query}}»"
+        },
+        "autocomplete": {
+            "loading": "Searching products...",
+            "empty": "No products found",
+            "enterHint": "Press Enter to open full results"
+        },
+        "history": {
+            "recent": "Recent Search",
+            "popular": "Popular Search ⚡️",
+            "loading": "Loading history...",
+            "popularLoading": "Loading popular searches...",
+            "empty": "No recent searches",
+            "popularEmpty": "No popular searches",
+            "clearAll": "Clear all recent searches",
+            "remove": "Remove query"
+        }
+    },
+    "footer": {
+        "about": "About",
+        "aboutUs": "About Us",
+        "ourBranches": "Our Branches",
+        "changelog": "Changelog",
+        "quickLinks": "Quick Links",
+        "faqs": "FAQs",
+        "recipes": "Recipes",
+        "contactUs": "Contact Us",
+        "helpSupport": "Help & Support",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "security": "Security",
+        "company": "Company",
+        "blog": "Blog",
+        "contact": "Contact",
+        "social": "Social",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "copyright": "All rights reserved © {{year}} {{company}}"
+    },
+    "pageLoader": {
+        "loading": "Loading..."
+    },
+    "notFound": {
+        "title": "Page Not Found",
+        "description": "The page you're looking for isn't available. Try to search again or use the go back button below.",
+        "goBack": "Go Back"
+    },
+    "pageError": {
+        "title": "Something went wrong",
+        "description": "Sorry – an unexpected error occurred. Please try refreshing the page or come back later.",
+        "reload": "Try again"
+    },
+    "errors": {
+        "CONTACT_REQUIRED": "Please provide email or phone",
+        "USER_NOT_FOUND": "User not found",
+        "USER_ALREADY_EXISTS": "User already exists",
+        "USER_ALREADY_VERIFIED": "User is already verified",
+        "GOOGLE_USER_NO_VERIFICATION": "Google users do not need verification",
+        "VERIFICATION_TOO_MANY_CODES": "Too many verification codes requested. Try later.",
+        "GOOGLE_AUTH_FAILED": "Google authentication failed",
+        "GOOGLE_CODE_INVALID": "Invalid or expired Google code",
+        "LOGIN_USE_GOOGLE": "This account uses Google Sign-In. Please continue with Google.",
+        "ACCOUNT_NOT_VERIFIED": "Please verify your account before logging in",
+        "INVALID_CREDENTIALS": "Invalid credentials",
+        "REFRESH_TOKEN_MISSING": "Refresh token missing",
+        "REFRESH_TOKEN_INVALID": "Invalid refresh token",
+        "REFRESH_TOKEN_REVOKED": "Refresh token revoked",
+        "REFRESH_TOKEN_EXPIRED": "Refresh token expired",
+        "REFRESH_TOKEN_MISMATCH": "Refresh token mismatch",
+        "CODE_REQUIRED": "Code is required",
+        "ACCESS_TOKEN_REQUIRED": "Please sign in again.",
+        "ACCESS_TOKEN_INVALID": "Your session has expired. Please sign in again.",
+        "EMAIL_NOT_FOUND": "Email is not set for this account.",
+        "PHONE_NOT_FOUND": "Phone number is not set for this account.",
+        "TARGET_NOT_AVAILABLE": "Selected verification channel is not available.",
+        "EMAIL_ALREADY_EXISTS": "Email is already added.",
+        "PHONE_ALREADY_EXISTS": "Phone number is already added.",
+        "EMAIL_UNCHANGED": "Enter a different email.",
+        "PHONE_UNCHANGED": "Enter a different phone number.",
+        "EMAIL_TAKEN": "This email is already in use.",
+        "PHONE_TAKEN": "This phone number is already in use.",
+        "RATE_LIMITED": "Too many attempts. Please wait and try again.",
+        "VERIFICATION_CODE_RATE_LIMITED": "Please wait before requesting another verification code.",
+        "VERIFICATION_CODE_ATTEMPTS_EXCEEDED": "Too many incorrect verification attempts. Request a new code.",
+        "OTP_ATTEMPTS_EXCEEDED": "Too many incorrect code attempts. Request a new code.",
+        "FLOW_TOKEN_REQUIRED": "Verification session expired. Start again.",
+        "FLOW_TOKEN_INVALID": "Verification session expired. Start again.",
+        "CHALLENGE_TOKEN_REQUIRED": "Verification session expired. Request a new code.",
+        "OTP_CHALLENGE_INVALID": "Verification session expired. Request a new code.",
+        "ORDER_NOT_FOUND": "Order not found.",
+        "ORDER_CANNOT_BE_CANCELLED": "This order can no longer be cancelled.",
+        "INVALID_EMAIL": "Enter a valid email.",
+        "INVALID_PHONE": "Enter a valid phone number in E.164 format.",
+        "unknownError": "Unknown error"
+    },
+    "productFilters": {
+        "title": "Filters",
+        "countries": "Countries",
+        "brands": "Brands",
+        "price": "Price",
+        "reset": "Reset",
+        "orderBy": "Order by",
+        "orderByAria": "Product sorting",
+        "sort": {
+            "nameAsc": "Name (A-Z)",
+            "nameDesc": "Name (Z-A)",
+            "priceAsc": "Price (Low to High)",
+            "priceDesc": "Price (High to Low)",
+            "ratingAsc": "Rating (Low to High)",
+            "ratingDesc": "Rating (High to Low)"
+        }
+    },
+    "breadcrumbs": {
+        "home": "Home"
+    },
+    "cart": {
+        "title": "My Cart",
+        "clear": "Clear Cart",
+        "deliveryDate": "Delivery Date",
+        "errorLoad": "Failed to load cart",
+        "emptyTitle": "Your cart is empty",
+        "emptyDescription": "Add some products to your cart to see them here.",
+        "itemsCount": "{{count}} Items",
+        "summary": {
+            "itemsTotal": "Items total",
+            "deliveryFee": "Delivery fee",
+            "estimatedTax": "Estimated tax"
+        },
+        "freeDelivery": "Free delivery",
+        "freeDeliveryRemaining": "Get free delivery ({{amount}} more)",
+        "orderCompletionProgressAria": "Order completion progress",
+        "checkout": "Checkout",
+        "signInToCheckout": "Please sign in to proceed to checkout",
+        "resolveIssuesBeforeCheckout": "Please resolve cart issues before checkout"
+    },
+    "select": {
+        "placeholder": "Choose...",
+        "noOptionsMessage": "Nothing has been found",
+        "loadingMessage": "Loading...",
+        "removeValueAria": "Remove {{value}}",
+        "clearAria": "Clear",
+        "searchPlaceholder": "Search...",
+        "searchAria": "Search options"
+    }
+}
