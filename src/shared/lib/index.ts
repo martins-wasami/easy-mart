@@ -1,4 +1,4 @@
-import { classNames as cn } from "./styling/className";
+import { classNames as cn } from "./styling/className/className";
 
 
 export { cn };
