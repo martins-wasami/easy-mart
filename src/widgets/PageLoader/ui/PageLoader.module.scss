@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    color: var(--gray-800);
+    font: var(--font-l);
+}
+
+.fullscreen {
+    min-height: 100vh;
+    font-weight: 700;
+}
