@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
-import styles from './PageLoader.module.scss'
+
 import { cn } from "@/shared/lib";
+
+import styles from './PageLoader.module.scss'
 
 interface PageLoaderProps {
     fullscreen?: boolean;

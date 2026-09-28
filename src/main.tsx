@@ -1,8 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './app/styles/index.scss'
-import App from './app/App.tsx'
 import { BrowserRouter } from 'react-router'
+
+import './app/styles/index.scss'
+
+
+import App from './app/App.tsx'
 import { ErrorBoundary, ThemeProvider } from './app/provider/index.ts'
 
 import './shared/config/i18n/i18n'

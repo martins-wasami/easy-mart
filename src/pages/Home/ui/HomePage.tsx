@@ -1,7 +1,8 @@
 import { Footer } from '@/widgets/Footer'
+import { Header } from '@/widgets/Header'
+
 import styles from './HomePage.module.scss'
 
-import { Header } from '@/widgets/Header'
 
 const HomePage = () => {
   
