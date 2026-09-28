@@ -6,12 +6,13 @@ import './app/styles/index.scss'
 
 
 import App from './app/App.tsx'
-import { ErrorBoundary, ThemeProvider } from './app/provider/index.ts'
+import { ErrorBoundary, StoreProvider, ThemeProvider } from './app/provider/index.ts'
 
 import './shared/config/i18n/i18n'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <StoreProvider>
     <BrowserRouter>
       <ThemeProvider>
         <ErrorBoundary>
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')!).render(
         </ErrorBoundary>
       </ThemeProvider>
     </BrowserRouter>
+    </StoreProvider>
   </StrictMode>,
 )
